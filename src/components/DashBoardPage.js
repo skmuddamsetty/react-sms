@@ -1,3 +1,4 @@
 import React from 'react';
-const DashBoardPage = () => <div>Dashboard Page</div>;
+import StudentsList from './StudentsList';
+const DashBoardPage = () => <div><StudentsList/></div>;
 export default DashBoardPage;

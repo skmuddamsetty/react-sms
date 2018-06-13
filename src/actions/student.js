@@ -1,3 +1,4 @@
+import uuid from 'uuid';
 export const addStudent = ({
     firstName = '',
     lastName = ''
@@ -5,6 +6,7 @@ export const addStudent = ({
     type: 'ADD_STUDENT',
     student: {
         firstName,
-        lastName
+        lastName,
+        id: uuid()
     }
 });
